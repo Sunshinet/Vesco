@@ -1,4 +1,93 @@
-/* Defoult font family - Roboto Condensed */
+/*====================================================
+                DEFAULT VALUES:
+
+                Font Family                 : Roboto Condensed
+                
+                Greenish Blue               : #34c6d3       (Buttons, Icons, Links, Lines & Backgrounds)
+                Steel Gray                  : #41464b       (Headings)
+                Blue Bayoux                 : #64707b       (Paragraphs)
+                White                       : #fff          (Text With Black Backgrounds)
+                Black                       : #000 
+
+======================================================*/
+html, body{
+    height: 100%;
+}
 body {
     font-family: 'Roboto Condensed', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+}
+
+/*  HOME  */
+
+#home{
+    height: 100%;
+}
+#home-cover{
+    height: 100%;
+    background-image: url("../img/bg-home.jpg");
+}
+#home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h3{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+/* BUTTONS */
+
+.btn-general{
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-white{
+    border-color: white;
+    color: white;
+}
+.btn-white:hover, .btn-white:focus {
+    background: white;
+    color: #41464b;
+}
+
+/* PARALLAX EFFECT CLASS */
+
+.bg-parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ANIMATION */
+
+#home-cover {
+    animation-delay: .1s;
+    animation-duration: .5s;
+}
+
+#home-heading {
+    animation-delay: .3s;
+    animation-duration: .6s;
+}
+#home-btn{
+    animation-delay: 1s;
+    animation-duration: .5s;
 }

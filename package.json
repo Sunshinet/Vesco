@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/bootstrap": "^3.3.36",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
     "http-server": "^0.10.0",
     "jquery": "^3.2.1"
   }
